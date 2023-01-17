@@ -4,7 +4,6 @@ const Total = ({ sum }) => <h3> <p>Total of {sum}</p> </h3>
 
 const Part = ({ part }) => 
 {
-  console.log("Here ", part)
   return (
   <p>
     {part.name} {part.exercises}
