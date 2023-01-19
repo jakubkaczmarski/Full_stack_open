@@ -1,9 +1,9 @@
 
 
 
-const Persons = (  {displayNames}) =>
+const Persons = (  {displayNames, Persons, setPersons}) =>
 {
-  return (<>{displayNames()} </>)
+  return (<>{displayNames(setPersons, Persons)} </>)
 }
 
 
